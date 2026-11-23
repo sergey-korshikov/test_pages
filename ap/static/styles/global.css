@@ -7084,6 +7084,9 @@ a#backToTop:disabled i {
   bottom: 50px;
   left: 0;
 }
+.frontFeatures__item_1_ppl .frontFeatures__preview {
+  bottom: 0;
+}
 .frontFeatures__item_2 {
   padding-right: 50%;
 }
@@ -7182,6 +7185,8 @@ a#backToTop:disabled i {
 .frontFeatures__name {
   font-size: 32px;
   font-weight: 700;
+  position: relative;
+  z-index: 2;
 }
 @media screen and (max-width: 1259px) {
   .frontFeatures__name {
@@ -7193,6 +7198,8 @@ a#backToTop:disabled i {
   font-size: 18px;
   font-weight: 400;
   margin-top: 12px;
+  position: relative;
+  z-index: 2;
 }
 @media screen and (max-width: 1259px) {
   .frontFeatures__text {
